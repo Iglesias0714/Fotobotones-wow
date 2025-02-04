@@ -365,3 +365,22 @@ body {
     color: #4a148c; /* Morado más oscuro */
     font-weight: 600;
   }
+  /* Estilos para el logo y título en el header */
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+  }
