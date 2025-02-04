@@ -345,3 +345,23 @@ body {
     background: #4a148c; /* Morado más oscuro */
     transform: translateY(-5px);
   }
+  /* Estilos para el mensaje destacado */
+.destacado {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .destacado p {
+    font-size: 1.2rem;
+    color: #6a1b9a; /* Morado oscuro */
+    margin: 0;
+  }
+  
+  .destacado strong {
+    color: #4a148c; /* Morado más oscuro */
+    font-weight: 600;
+  }
